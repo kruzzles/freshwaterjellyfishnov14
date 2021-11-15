@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/447/447748.png">
+  <title> Biological Diversity Project </title>
+</head>
+<body style="background-color: black;">
+  <div id="background">
+    <div class="title">
+      <div class="verticalLine"></div>
+      <h1> FRESHWATER JELLYFISH </h1>
+      <h2> BY KRUZ KING </h2>
+      <a><button onclick="paragraph()"> PARAGRAPHS </button></a>
+      <a><button style="margin-top: 56vh;" onclick="sources()"> SOURCES </button></a>
+    </div>
+  </div>
+  <div id="paragraph">
+   <h1> PARAGRAPHS </h1>
+    <h2> SECTION 1 </h2>
+    <p> &nbsp;&nbsp;&nbsp;&nbsp;The species that I will be focusing on 
+      for this project is the freshwater jellyfish (specifically the
+      craspedacusta sowerbii). They have existed on earth for up to 
+      600 million years, they were considered an endangered species
+      in 2002. Humans hunt some edible species of jellyfish. 
+      Jellyfish is used in some dishes including salads and 
+      sushi however, scientists have said jellyfish are not 
+      a significant item on the seafood menu as they are made
+      up of 95% water and have very little calories. Even 
+      though they aren't a very good source of calories 
+      there are other possible benefits which include having
+      important nutrients like protein and antioxidants.
+      Freshwater jellyfish are very sensitive to changes
+      in their environment so human interventions such as 
+      pollution, changes in climate and overfishing are very 
+      harmful to them. The water tempurature freshwater jellyfish 
+      need to survive is 20-25°C (68-77°F.) Thermal pollution
+      can greatly increase water temperature which is very
+      dangerous to the jellyfish. ( write about phtoplankton dying now)
+    </p>
+    
+    <h2> SECTION 2 </h2>
+    <p> &nbsp;&nbsp;&nbsp;&nbsp; There is very little biological
+       diversity in freshwater jellyfish. This is because the
+       predators they have are often hunted. 
+      
+    </p>
+
+  <a href="index.html"><button> RETURN TO HOME </button></a>
+  </div>
+
+  <div id="sources">
+    <h1> SOURCES </h1>
+    <p><a href="https://nas.er.usgs.gov/queries/factsheet.aspx?SpeciesID=1068"> https://nas.er.usgs.gov/queries/factsheet.aspx?SpeciesID=1068 </a>
+    <br><br>
+    <a href="https://www.scmp.com/video/china/3090955/critically-endangered-jellyfish-found-freshwater-pond-southwest-china"> https://www.scmp.com/video/china/3090955/critically-endangered-jellyfish-found-freshwater-pond-southwest-china </a>
+    <br><br>
+    <a href="https://en.wikipedia.org/wiki/Jellyfish_as_food"> https://en.wikipedia.org/wiki/Jellyfish_as_food </a>
+    <br><br>
+    <a href="https://www.nytimes.com/2018/09/28/science/jellyfish-predators-oceans.html"> https://www.nytimes.com/2018/09/28/science/jellyfish-predators-oceans.html </a>
+    <br><br>
+    <a href="https://www.nytimes.com/2018/09/28/science/jellyfish-predators-oceans.html"> https://www.nytimes.com/2018/09/28/science/jellyfish-predators-oceans.html </a>
+    <br><br>
+    <a href="https://www.healthline.com/nutrition/can-you-eat-jellyfish#:~:text=Certain%20species%20of%20jellyfish%20are,in%20humans%20is%20currently%20lacking."> https://www.healthline.com/nutrition/can-you-eat-jellyfish#:~:text=Certain%20species%20of%20jellyfish%20are,in%20humans%20is%20currently%20lacking. </a>
+    <br><br>
+    <a href="https://www.worldanimalfoundation.org/advocate/wild-animals/params/post/1291244/jellyfish"> https://www.worldanimalfoundation.org/advocate/wild-animals/params/post/1291244/jellyfish </a>
+    <br><br>
+    <a href="https://www.bioexpedition.com/jellyfish-predators/"> https://www.bioexpedition.com/jellyfish-predators/ </a>
+    <br><br>
+    <a href="https://smartaquariumguide.com/freshwater-jellyfish/#:~:text=The%20best%20water%20temperature%20for,a%206.5%2D7%20pH%20range."> https://smartaquariumguide.com/freshwater-jellyfish/#:~:text=The%20best%20water%20temperature%20for,a%206.5%2D7%20pH%20range. </a>
+    <br><br>
+    <a href="https://www.inspirecleanenergy.com/blog/clean-energy-101/what-is-thermal-pollution#:~:text=Thermal%20pollution%20increases%20water%20temperature,occur%20for%20plants%20and%20animals."> https://www.inspirecleanenergy.com/blog/clean-energy-101/what-is-thermal-pollution#:~:text=Thermal%20pollution%20increases%20water%20temperature,occur%20for%20plants%20and%20animals. </a></p>
+    <br><br>
+    <a href="https://www.google.com"> https://www.google.com </a>
+    <a href="index.html"><button> RETURN TO HOME </button></a>
+  </div>
+  <script>
+    
+    function paragraph() {
+      const background = document.getElementById("background");
+      const paragraph = document.getElementById("paragraph");
+      paragraph.style.display = "block";
+      background.classList.add("opacity");
+
+      setInterval(function(){
+        background.style.display = "none";
+       }, 1000);
+    }
+
+
+    function sources() {
+      const background = document.getElementById("background");
+      const sources = document.getElementById("sources");
+      sources.style.display = "block";
+      background.classList.add("opacity");
+
+      setInterval(function(){
+        background.style.display = "none";
+       }, 1000);
+    }
+
+  </script>
+</body>
+</html>
